@@ -4,8 +4,18 @@ A clinical-grade diagnostic dashboard engineered with Streamlit, Scikit-Learn, a
 
 ---
 
-## Streamlit Link: https://medicalpredictionai.streamlit.app/
+## 🔗 Live Streamlit App: [medicalpredictionai.streamlit.app](https://medicalpredictionai.streamlit.app/)
 
+---
+
+## 👥 Project Team & Contributions
+
+* **Ahmed El Zayat** — Chronic Kidney Disease (CKD) Dataset Curation & Renal Panel Pipeline
+* **Marvel Akram** — ECG Arrhythmia Dataset & Signal Processing Model
+* **Karen Hany** — Heart Failure Survival Risk Predictor
+* **Mark George** — Streamlit Dashboard Engineering, Pipeline Integration & Cloud Deployment
+
+---
 
 ## Diagnostic Modules
 
@@ -46,6 +56,15 @@ A clinical-grade diagnostic dashboard engineered with Streamlit, Scikit-Learn, a
 ```text
 ├── app.py                      # Main Streamlit dashboard application
 ├── requirements.txt            # Environment dependencies
+├── Notebooks/                  # Experimental and training notebooks
+│   ├── ckd_project.ipynb       # CKD model exploration & training
+│   ├── ecg_project.ipynb       # ECG waveform modeling
+│   ├── heart_failure.ipynb     # Heart failure survival analysis
+│   └── Datasets/               # Project datasets repository
+│       ├── chronic_kidney_disease_clean.arff  # CKD benchmark data
+│       └── heart_failure_clinical_records_dataset.csv # Heart failure data
+│       └── MITBIH ECG Dataset Link # Open link and download dataset
+│       └── ckd_dataset_v2_compatible_test.csv # Extra Testing on ckd dataset
 ├── best_ecg_model.pkl          # Trained ECG classification artifact
 ├── ecg_scaler.pkl              # Signal normalizer for ECG telemetry
 ├── best_hf_model.pkl           # Heart failure survival risk estimator
@@ -55,28 +74,3 @@ A clinical-grade diagnostic dashboard engineered with Streamlit, Scikit-Learn, a
 ├── ckd_scaler.pkl              # Robust scaler for continuous renal markers
 ├── ckd_cat_imputer.pkl         # Categorical imputer
 └── ckd_model_columns.pkl       # Feature alignment registry for CKD pipeline
-```
----
-Getting Started
-1. Clone the Repository
-```
-git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-2. Set Up Virtual Environment & Dependencies
-
-```
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-
-3. Launch the Application
-```
-streamlit run app.py
-```
-
-Clinical Notice
-This system is developed as an academic and clinical decision-support demonstration. Predictions are calibrated estimates intended to assist clinical inquiry and do not replace formal laboratory validation or licensed clinical judgment.
