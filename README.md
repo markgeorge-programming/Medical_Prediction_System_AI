@@ -4,7 +4,7 @@ A clinical-grade diagnostic dashboard engineered with Streamlit, Scikit-Learn, a
 
 ---
 
-## 🔗 Live Streamlit App: [medicalpredictionai.streamlit.app](https://medicalpredictionai.streamlit.app/)
+## 🔗 Live Streamlit App: [medicalpredictionsystemai.streamlit.app]([https://medicalpredictionsystemai.streamlit.app/](https://medicalpredictionsystemai.streamlit.app/))
 
 ---
 
